@@ -319,43 +319,34 @@
                 </div>
             </div>
       
-    </div>
-    <a name="Contacto"/>
 </section>
 
-<section>
-
-    
-    <form>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="form-group">
-                    <input type="text" class="form-control" required="required" placeholder="Nombre" />
-                </div>
-            </div>
-            
-            
-            <div class="row">
-                <div class="col-md-4">
-                <div class="form-group">
-                    <input type="text" class="form-control" required="required" placeholder="Email" />
-                </div>
-            </div>
 
 
-        </div>
+<section id="contacto">
 
-        <div class="row">
-            <div class="col-md-4">
-                <div class="form-group">
-                    <textarea name="message" id="message" required="required" class="form-control" rows="3" placeholder="Mensaje"></textarea>
-                </div>
-                <div class="form-group">
-                    <button type="submit" class="btn btn-primary">ENVIAR</button>
-                </div>
-            </div>
-        </div>
-    </form>
+    <a name="Contacto"/>
+       
+    <div class="contenedor1">
+        <form action="">
+          <div class="form-header">
+            <h2 class="form-title">
+              Contacto
+            </h2>
+          </div>
+          <label for="nombre" class="form-label" >Nombres:</label>
+          <input type="text"for="nombre" id="nombre" class="form-input" required placeholder="Ingrese su nombre">
+
+          <label for="correo" class="form-label" >Mail:</label>
+          <input type="email" for="correo" id="correo" class="form-input" required placeholder="Ingrese su mail">
+
+          <label for="mensaje" class="form-label">Mensaje</label>
+          <textarea id="mensaje"for="mensaje" class="form-textarea" required placeholder="Ingresa su mensaje"></textarea>
+
+          <input type="submit" class="btn-submit" value="Enviar Consulta">
+
+        </form>
+      </div>
    
 
 </section>
