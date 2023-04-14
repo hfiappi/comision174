@@ -1,4 +1,7 @@
+
+
 /* Pie de pagina */
+
 
 .redessociales{
   color:white;
@@ -31,7 +34,7 @@
   padding:10px 10px  ;
   height: 20px;
 }
-.contenedor i{
+.contenedor  i{
   padding-right: 2px;
   color:white;
   
@@ -63,7 +66,7 @@
       font-weight:900;
       color:#0e0d0df6;
       padding:5px;
-      text-transform:uppercase;
+      text-transform: uppercase;
       }
   
 
@@ -73,14 +76,38 @@
 
 body {
   margin: 0;
+  padding: 0;
+  width: 100%;
 }
-
+.img-responsive {
+  margin: auto;
+  margin-top: 25px;
+}
 .adjst {
   padding-top: 0px;
+}
+hr {
+  height: 5px;
+  background-color: rgb( 89, 140, 194);
+  width: 98%;
 }
 
 .panel-body {
   padding: 15px;
+  /*background-color: red;*/
+}
+.certs {
+  width: 100%;
+  /*background-color: red;*/
+  margin-left: 10%;
+  
+}
+.panel-body img {
+/*display: flex;*/
+background-color: #444;
+align-items: center;
+justify-content: center;
+
 }
 
 .panel-default {
@@ -158,6 +185,7 @@ body {
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
+  
 }
 input,
 button,
@@ -172,6 +200,11 @@ textarea {
 img {
   vertical-align: middle;
 }
+.img-responsive:first-child{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .img-responsive,
 .thumbnail > img,
 .thumbnail a > img,
@@ -180,6 +213,9 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  width: 330px;
+  height: 250px;
+  
 }
 .img-rounded {
   border-radius: 6px;
@@ -387,7 +423,7 @@ navbar {
     padding-bottom: 15px;
   }
   .navbar-nav.navbar-right:last-child {
-    margin-right: -15px;
+    /*margin-right: -15px;*/
   }
 
 
@@ -397,6 +433,11 @@ navbar {
   }
   .navbar-right {
     float: right !important;
+    padding: 20px 10px 20px 20px;
+    
+  }
+  div img .logo {
+    
   }
 }
 
@@ -412,17 +453,22 @@ navbar {
 .navbar-inverse .navbar-brand:focus {
   color: #fff;
   background-color: transparent;
+  
 }
 .navbar-inverse .navbar-text {
   color: #999;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #999;
+  color: #d19393;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
   color: #fff;
   background-color: transparent;
+  background-color: rgb( 126, 164, 188);
+  height: auto;
+  color: #000;
+ border-radius: 10px; 
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
@@ -498,10 +544,12 @@ navbar {
 
 /* contacto*/
 #contacto{
-  background: url(img/imagen1x.jpg);
+  background: url(img/PUERTO.jpg);
   -webkit-background-size:border-box;
   background-size: cover;
   background-attachment: fixed;
+  padding:35px 0;
+  height: 100vh;
 }
 .contenedor .form .form-header .form-title{
   font-weight: normal;
@@ -510,11 +558,11 @@ navbar {
 .contenedor1 {
   background: rgba(0,0,0, .6) ;
   width: 90%;
-  min-width: 650px;
+  min-width: 350px;
   margin:auto;
   padding: 5px 35px;
   padding-bottom: 30px;
-  border-radius: 3px;
+  border-radius: 10px;
   max-width: 900px;
 }  
 .form-label, .form-textarea, .form.input{
@@ -523,6 +571,7 @@ navbar {
   font-size:16px;
   position: relative;
   padding: 14px 0;
+  max-width: 100%;
 }
 
 .form-input , .form-textarea{
@@ -536,6 +585,7 @@ navbar {
   font-size: 14px;
   color:#fff;
   font-family: Roboto;
+  
 }
 .form-input{
   padding: 14px 0;
@@ -554,4 +604,23 @@ navbar {
   color:#fff;
   padding: 15px 0;
   cursor: pointer;
+}
+/* correciones*/
+.container h2{
+  text-align: center;
+  font-size: 2 em;
+}
+
+.container h1 {
+  text-align: center;
+  color:white;
+  font-size: 3em;
+}
+.container h5{
+  text-align: center;
+  color:white;
+  font-size: 1.5em;
+}
+.certs img{
+  width: 22%;
 }
